@@ -11,6 +11,17 @@
     
 }
 
+.location {
+    width: 75%;
+    padding: .8rem 1rem;
+    font-size: .95rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: all .2s ease;
+    background: white;
+}
+
 .label {
     width: 25%;
     padding: .7rem .9rem;

@@ -18,16 +18,35 @@
 }
 
 h1.app-title {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: #1e1e1e;
+    font-size: 2.8rem;
+  font-weight: 700;
+  color: #1a1a1a;
   text-align: center;
   margin-bottom: 2rem;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+h1.app-title::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 4px;
+  background: #5fc8a8;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+nav {
+  background-color: #ffffff;
 }
 
 body {
   margin: 0;
-  background: #f2f2f2; /* very light gray */
+  background: #fcfffb; /* very light gray */
   font-family: system-ui, sans-serif;
 }
 
