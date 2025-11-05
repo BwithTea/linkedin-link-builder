@@ -21,11 +21,13 @@ export default function LinkBuilder() {
                     if (disabled) {
                         alert('Please pick a job title and time range before generating the link.');
                     } else {
+                        //Create a base url and build the link with parameters
                         const link = `https://www.linkedin.com/jobs/search/?f_TPR=r${time}&keywords=${encodeURIComponent(jobTitle)}&location=${encodeURIComponent(location)}`;
                         setGeneratedLink(link);
                     }
                     
-                }}> Generate Link</Button>
+                }}> Generate Link </Button>
+                {/* Wrap this input in a form field so I can have a copy button */}
                 <Input id="generated-link" type="text" value={generatedLink} readOnly />
             </Card>
         </div>
