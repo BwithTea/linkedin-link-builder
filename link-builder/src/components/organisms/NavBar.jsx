@@ -7,7 +7,7 @@ export default function NavBar() {
         <nav className="navbar" style={{
             display: "flex",
             alignItems: "center",
-            borderBottom: "1px solid #ccc",
+            borderBottom: "1px solid #000000ff",
             width: "100%",
             justifyContent: "space-between",
             paddingRight: "2rem"

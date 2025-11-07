@@ -11,7 +11,8 @@ export default function LinkBuilder() {
     const [time, setTime] = useState("");
     const [location, setLocation] = useState("");
     const [generatedLink, setGeneratedLink] = useState("");
-    let disabled = !jobTitle || !time 
+
+    let disabled = !jobTitle || !time;
 
     return (
         <div className="Page-Container">
@@ -35,7 +36,7 @@ export default function LinkBuilder() {
                     <Button type="button" variant="copy" disabled={!generatedLink} onClick={() => {
                         navigator.clipboard.writeText(generatedLink);
                         alert('Link copied to clipboard!');
-                    }}>Copy</Button>
+                    }}> Copy </Button>
                 </FormField>
             </Card>
         </div>
