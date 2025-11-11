@@ -40,7 +40,7 @@ export default function InfoSection() {
         </ol>
         <br />
         <p>
-          You can also fine-tune your link manually by adding parameters for
+          In the next update, you will be able to fine-tune your link manually by adding parameters for
           experience level or location. For example:
           <br />
           <code>f_E=2</code> → Entry Level <br />
@@ -48,7 +48,7 @@ export default function InfoSection() {
         </p>
       </div>
 
-      <h1>Why Use this Link Builder?</h1>
+      <h1>Why Use thisLink Builder?</h1>
       <p style={{ maxWidth: "1000px", textAlign: "center", lineHeight: "1.6", fontSize: "2rem" }}>
         LinkedIn limits time filters to “Past 24 Hours.” and doesn't give you much control over this. This tool gives you
         precise control, down to the hour, helping you apply before listings
